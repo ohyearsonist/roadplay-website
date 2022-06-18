@@ -1,0 +1,38 @@
+.pinkButton {
+  display: inline-block;
+
+  border-radius: 32px;
+
+  border: 8px solid #ff4aa7;
+
+  box-shadow: 0px 0px 4px #ff4aa7;
+  box-shadow: 0px 0px 12px #ff4aa7;
+  box-shadow: 0px 0px 45px #ff4aa7;
+  backdrop-filter: blur(1px);
+
+  background-color: transparent;
+
+  transition-duration: 300ms;
+}
+
+.pinkButton p {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #ffe0f7;
+  -webkit-text-stroke: 1px #ff4aa7;
+
+  text-transform: uppercase;
+}
+
+.pinkButton:hover {
+  background-color: #ff4aa7;
+}

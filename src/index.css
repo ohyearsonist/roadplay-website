@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  min-height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

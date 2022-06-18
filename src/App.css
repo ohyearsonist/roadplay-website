@@ -1,0 +1,150 @@
+body,
+html {
+  background-color: #3d1483;
+}
+
+.main {
+  min-height: 100%;
+  max-width: 100vw;
+}
+
+.hero > h1 {
+  margin-left: 9.72rem;
+  margin-top: 9.53rem;
+
+  max-width: 695px;
+
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero > h1 > b {
+  -webkit-text-stroke: 2px #ff4aa7;
+
+  text-shadow: 0px 0px 12px #ff4aa7, 0px 0px 45px #ff4aa7;
+  backdrop-filter: blur(1px);
+}
+
+.hero > p {
+  margin-left: 9.72rem;
+  margin-top: 2.04rem;
+
+  max-width: 1050px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+
+.hero > .pinkButton {
+  margin-left: 9.72rem;
+  margin-top: 2.04rem;
+}
+
+.About {
+  width: 100%;
+  height: 811;
+
+  margin-top: 6.12rem;
+  margin-bottom: 6.12rem;
+
+  text-align: center;
+
+  background-position: center;
+  background-image: url(./assets/Windows\ XP.png);
+  background-repeat: no-repeat;
+  background-size: 95vw;
+}
+
+.About > div {
+  padding-top: 15.5rem;
+  padding-bottom: 15.5rem;
+}
+
+.About > div > h3 {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffe0f7;
+
+  -webkit-text-stroke: 3px #ff8370;
+
+  text-shadow: 0px 0px 12px #ff8370, 0px 0px 45px #ff8370;
+  backdrop-filter: blur(1px);
+}
+
+.About > div > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffe0f7;
+
+  -webkit-text-stroke: 1px #ff8370;
+
+  text-shadow: 0px 0px 12px #ff8370, 0px 0px 45px #ff8370;
+  backdrop-filter: blur(1px);
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.About > div > button {
+  width: 20.83rem;
+
+  border: 5px solid #ff8370;
+  box-shadow: 0px 0px 4px #ff8370;
+  box-shadow: 0px 0px 12px #ff8370;
+  box-shadow: 0px 0px 45px #ff8370;
+  backdrop-filter: blur(1px);
+  border-radius: 7px;
+
+  background: transparent;
+
+  transition-duration: 300ms;
+}
+
+.About > div > button:hover {
+  background-color: #ff8370;
+}
+
+.About > div > button > p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #ffe0f7;
+  -webkit-text-stroke: 1px #ff8370;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
