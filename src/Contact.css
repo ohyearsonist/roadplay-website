@@ -1,0 +1,88 @@
+.Contact {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  padding-top: 2rem;
+}
+
+.Contact > h1 {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  -webkit-text-stroke: 4px #a453f5;
+  font-size: 70px;
+
+  text-shadow: 0px 0px 12px #a453f5, 0px 0px 45px #a453f5;
+  backdrop-filter: blur(1px);
+
+  padding-top: 2rem;
+}
+
+.Contact > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  max-width: 90vw;
+
+  color: #ffe0f7;
+
+  -webkit-text-stroke: 1px #a453f5;
+  font-size: 30px;
+
+  text-shadow: 0px 0px 12px #a453f5, 0px 0px 45px #a453f5;
+  backdrop-filter: blur(1px);
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Contact > .Link > button {
+  display: inline-block;
+
+  border-radius: 32px;
+
+  border: 8px solid #a453f5;
+
+  box-shadow: 0px 0px 4px #a453f5;
+  box-shadow: 0px 0px 12px #a453f5;
+  box-shadow: 0px 0px 45px #a453f5;
+  backdrop-filter: blur(1px);
+
+  background-color: transparent;
+
+  transition-duration: 300ms;
+}
+
+.Contact > .Link > button > p {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #ffe0f7;
+  -webkit-text-stroke: 1px #a453f5;
+
+  text-transform: uppercase;
+}
+
+.Contact > .Link > button:hover {
+  background-color: #a453f5;
+}

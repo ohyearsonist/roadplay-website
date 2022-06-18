@@ -1,14 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Header from "./Header";
 import PinkButton from "./pinkButton";
-import Footer from "./Footer"
+import Footer from "./Footer";
+import Contact from "./Contact";
 
 import "./App.css";
 
 function App() {
   return (
-    <div className="main">
+    <main>
       <Header />
       <section className="hero">
         <h1>
@@ -20,7 +22,9 @@ function App() {
           aluno com o conteúdo e aumentando também o engajamento durante aulas.
         </p>
 
-        <PinkButton text="Saiba mais" />
+        <Link to="/">
+          <PinkButton text="Saiba mais" />
+        </Link>
       </section>
       <section className="About">
         <div>
@@ -30,16 +34,16 @@ function App() {
             desmotivados e que não prestam atenção, clique no botão abaixo para
             conhecer nossa solução!
           </p>
-          <button className="orangeButton">
-            <p>Saiba Mais</p>
-          </button>
+          <Link to="/">
+            <button className="orangeButton">
+              <p>Saiba Mais</p>
+            </button>
+          </Link>
         </div>
       </section>
-      <section className="contact">
-
-      </section>
+      <Contact />
       <Footer></Footer>
-    </div>
+    </main>
   );
 }
 
