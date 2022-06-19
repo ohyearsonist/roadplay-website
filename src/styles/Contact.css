@@ -1,0 +1,22 @@
+.Contact {
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  padding-top: 15%;
+  padding-bottom: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background-color: #FF8370;
+}
+
+@media only screen and (max-width: 780px) {
+  .Contact {
+    padding-bottom: 15%;
+  }
+
+  .contactStatue {
+    display: none;
+  }
+}

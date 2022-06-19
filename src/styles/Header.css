@@ -1,0 +1,25 @@
+.Header {
+    background-color: #000;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerLogo {
+    margin-left: 1%;
+}
+
+.headerHamburger {
+    margin-right: 1%;
+}
+
+@media only screen and (max-width: 780px) {
+    .headerLogo {
+        margin: 1%;
+    }
+    
+    .headerHamburger {
+        margin: 1%
+    }    
+}

@@ -1,0 +1,52 @@
+.AboutPage {
+  background-color: #ff8370;
+
+  text-align: center;
+
+  padding: 10%;
+}
+
+.AboutPage {
+  display: grid;
+  place-items: center;
+}
+
+.AboutPage > .callToAction {
+  display: grid;
+  place-items: center;
+
+  margin-top: 5%;
+
+  position: relative;
+}
+
+.AboutPage > .callToAction > img {
+  position: absolute;
+}
+
+.AboutPage > .callToAction > .purpleNeon.roundButton {
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+
+@media only screen and (min-width: 781px) {
+  .AboutPage > p {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .AboutPage > p {
+    font-weight: 400;
+  }
+
+  .AboutPage > .callToAction {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .AboutPage > .callToAction > img {
+    display: none;
+  }
+}

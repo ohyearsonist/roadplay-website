@@ -17,4 +17,156 @@ body {
 main {
   min-height: 100%;
   max-width: 100vw;
+  background-color: #3D1483;
+}
+
+/* Design System */
+
+h1 {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  margin-top: 7%;
+  margin-bottom: 7%;
+
+  color: #ffffff;
+}
+
+.boldParagraph {
+  font-weight: 700;
+}
+
+.roundButton {
+  text-decoration: none;
+  border-radius: 32px;
+}
+
+.roundButton > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+
+  color: #ffe0f7;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.squareButton {
+  text-decoration: none;
+}
+
+.squareButton > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+
+  color: #ffe0f7;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pinkNeon {
+  -webkit-text-stroke: 1px #ff4aa7;
+  text-shadow: 0px 0px 12px #ff4aa7, 0px 0px 45px #ff4aa7;
+  filter: blur(1px);
+}
+
+.pinkNeon.roundButton {
+  background-color: transparent;
+
+  border: 8px solid #ff4aa7;
+
+  box-shadow: inset 0px 0px 4px #ff4aa7;
+  filter: blur(1px) drop-shadow(0px 0px 12px #ff4aa7)
+    drop-shadow(0px 0px 45px #ff4aa7);
+}
+
+.orangeNeon {
+  -webkit-text-stroke: 1px #ff8370;
+  text-shadow: 0px 0px 12px #ff8370, 0px 0px 45px #ff8370;
+  filter: blur(1px);
+}
+
+.orangeNeon.squareButton {
+  background-color: transparent;
+
+  border: 5px solid #ff8370;
+  box-shadow: inset 0px 0px 4px #ff8370;
+  filter: blur(1px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 0px 12px #ff8370) drop-shadow(0px 0px 45px #ff8370);
+  border-radius: 7px;
+}
+
+.purpleNeon {
+  -webkit-text-stroke: 1px #a453f5;
+  text-shadow: 0px 0px 12px #a453f5, 0px 0px 45px #a453f5;
+  filter: blur(1px);
+}
+
+.purpleNeon.roundButton {
+  background-color: transparent;
+
+  border: 8px solid #a453f5;
+
+  box-shadow: inset 0px 0px 4px #a453f5;
+  filter: blur(1px) drop-shadow(0px 0px 12px #a453f5)
+    drop-shadow(0px 0px 45px #a453f5);
+}
+
+@media only screen and (max-width: 780px) {
+  h1 {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+  }
+}
+
+@media only screen and (min-width: 781px) {
+  .roundButton {
+    transition-duration: 300ms;
+  }
+
+  .squareButton {
+    transition-duration: 300ms;
+  }
+
+  .pinkNeon.roundButton:hover {
+    background-color: #ff4aa7;
+  }
+
+  .purpleNeon.roundButton:hover {
+    background-color: #a453f5;
+  }
+
+  .orangeNeon.squareButton:hover {
+    background-color: #ff8370;
+  }
 }

@@ -1,0 +1,78 @@
+.Hero {
+  display: grid;
+  place-items: normal start;
+  text-align: left;
+
+  padding-top: 15%;
+  padding-bottom: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Hero > h1 {
+    max-width: 80%;
+}
+
+.Hero > p {
+  font-weight: 700;
+}
+
+.Hero > h1 > b {
+  -webkit-text-stroke: 2px #ff4aa7;
+}
+
+.About {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background-color: #6a1483;
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  color: #fff;
+}
+
+@media only screen and (max-width: 780px) {
+  .Hero {
+    display: grid;
+    place-items: center;
+
+    padding-bottom: 15%;
+  }
+
+  .aboutBackgroundWindow {
+    display: none;
+  }
+
+  .About > .content {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media only screen and (min-width: 781px) {
+    .About {
+        position: relative;
+        height: 550px;
+
+        background-color: transparent;
+    }
+
+    .About > .aboutBackgroundWindow {
+        position: absolute;
+
+        width: 90%;
+    }
+
+    .About > .content {
+        position: absolute;
+        width: 70%;
+
+        display: grid;
+        place-items: center;
+    }
+}
