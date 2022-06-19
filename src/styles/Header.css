@@ -2,6 +2,9 @@
     background-color: #000;
     width: 100%;
 
+    position: sticky;
+    top: 0;
+
     display: flex;
     justify-content: flex-start;
 }
